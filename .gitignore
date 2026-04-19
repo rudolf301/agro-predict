@@ -1,0 +1,26 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+cache/
+# models/*.pkl  # commit trained model so Railway can serve without running trainer
+
+# Flutter / mobile project build artifacts
+mobile_predict/build/
+mobile_predict/.dart_tool/
+mobile_predict/.flutter-plugins
+mobile_predict/.flutter-plugins-dependencies
+mobile_predict/ios/Pods/
+mobile_predict/ios/Flutter/Flutter.podspec
+mobile_predict/ios/Flutter/flutter_export_environment.sh
+mobile_predict/ios/Flutter/Generated.xcconfig
+mobile_predict/android/.gradle/
+mobile_predict/android/app/release/
+mobile_predict/android/local.properties
+mobile_predict/fix_plugins.py
+
+# IDE
+.idea/
+.vscode/
+*.iml
